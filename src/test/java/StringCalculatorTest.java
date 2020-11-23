@@ -27,5 +27,11 @@ class StringCalculatorTest {
 		StringCalculator strcalc4 = new StringCalculator();
 		strcalc4.add("1,2");
 	}
+	
+	@Test
+	void test5() {
+		StringCalculator strcalc5 = new StringCalculator();
+		strcalc5.add("1\n1,2");
+	}
 
 }
