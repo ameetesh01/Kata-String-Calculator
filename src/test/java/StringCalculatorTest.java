@@ -7,8 +7,8 @@ class StringCalculatorTest {
 	@Test
 	void test1() {
 		StringCalculator strcalc1 = new StringCalculator();
-		int act = strcalc1.add("1\n1,2");
-		int exp = 4;
+		int act = strcalc1.add("//;\n1;2");
+		int exp = 3;
 		assertEquals(exp,act);
 	}
 	
