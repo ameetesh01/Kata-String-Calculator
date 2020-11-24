@@ -1,6 +1,8 @@
 
 public class StringCalculator {
+	public int fl = 0;
 	public int add(String num) {
+		fl++;
 		if(num == "") {
 			return 0;
 		}
@@ -40,5 +42,9 @@ public class StringCalculator {
 		else {
 			return -1;
 		}
+	}
+	
+	public int getCalledCount() {
+		return fl;
 	}
 }
